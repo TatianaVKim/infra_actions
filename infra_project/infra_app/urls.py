@@ -4,7 +4,6 @@ from . import views
 
 app_name = 'infra_app'
 
-# удалить потом
 urlpatterns = [
     path('', views.index, name='index'),
     path('second/', views.second_page, name='second_page'),
